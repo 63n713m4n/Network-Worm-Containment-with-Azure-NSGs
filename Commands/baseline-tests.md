@@ -4,7 +4,7 @@
     ping 10.1.1.5
 
 ## SSH connectivity test:
-    ssh Target@10.1.1.5
+    ssh Target1@10.1.1.5
 
 ## Port scan using nmap:
     sudo apt install nmap -y 
