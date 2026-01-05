@@ -9,13 +9,13 @@ This file documents the Metasploit modules used for safe service visibility test
 
 ## TCP port scan:
     use auxiliary/scanner/portscan/tcp
-    set RHOSTS <target_private_ip>
+    set RHOSTS 10.1.1.5
     set PORTS 1-1024
     run 
 
 ## Telnet version scan: 
     use auxiliary/scanner/telnet/telnet_version
-    set RHOSTS <target_private_ip>
+    set RHOSTS 10.1.1.5
     run
 
 ## Expected result before NSG
