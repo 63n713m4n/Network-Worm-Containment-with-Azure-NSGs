@@ -7,6 +7,6 @@ The file PT1H.json was produced by Azure Network Watcher after applying a subnet
 	  •	Traffic entries are associated with the Network Security Group project_NSG
 	  •	The rule DefaultRule_DenyAllInBound is applied
 	  •	Flow tuples are marked with a deny action
-  	•	No packets or bytes were delivered to the target system
+  	  •	No packets or bytes were delivered to the target system
 
 # These logs confirm that internal lateral movement attempts were successfully blocked at the network layer.
