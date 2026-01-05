@@ -44,3 +44,9 @@ Open ports and Telnet service are detected.
 
 ## Expected result after NSG
 Scans fail or time out.
+
+
+## Purpose of Metasploit Usage
+Metasploit was used only to simulate attacker reconnaissance behavior. The goal was to demonstrate how service visibility changes before and after applying a subnet-level Network Security Group rule.
+
+# No real malware, exploitation, or unauthorized activity was performed
