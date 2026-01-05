@@ -54,7 +54,7 @@ Ubuntu Server
 	•	Metasploit modules used for service visibility
 	•	Flow log evidence confirming blocked traffic
 	•	Supporting notes for report and presentation
-
+	•	Screenshots
 
 # KEY FINDINGS
 	•	Flat cloud networks allow unrestricted lateral movement by default
