@@ -1,16 +1,15 @@
-Ping test from JumpBox to Target VM:
+# Baseline Connectivity Tests
 
-ping <target_private_ip>
+## Ping test from JumpBox to Target VM:
+    ping 10.1.1.5
 
-SSH connectivity test:
+## SSH connectivity test:
+    ssh Target@10.1.1.5
 
-ssh <username>@<target_private_ip>
+## Port scan using nmap:
+    sudo apt install nmap -y 
+    nmap 10.1.1.5
 
-Port scan using nmap:
-
-sudo apt install nmap -y
-nmap <target_private_ip>
-
-## Expected result
+# Expected result
 All commands succeed, confirming unrestricted internal communication.
 
