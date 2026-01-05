@@ -65,28 +65,28 @@ Ubuntu Server
 		
 # REPOSITORY STRUCTURE
 	•	network-worm-containment-azure-nsg/
-│
-├── README.md
-│
-├── architecture/
-│   └── architecture-diagram.png
-│
-├── commands/
-│   ├── baseline-tests.md
-│   ├── telnet-setup.md
-│   ├── metasploit-tests.md
-│   └── nsg-configuration.md
-│
-├── logs/
-│   └── flow-log-sample.json
-│
-├── screenshots/
-│   ├── before-firewall/
-│   ├── after-firewall/
-│   └── monitoring/
-│
-└── notes/
-    └── project-notes.md
+		│
+		├── README.md
+		│
+		├── architecture/
+		│   └── architecture-diagram.png
+		│
+		├── commands/
+		│   ├── baseline-tests.md
+		│   ├── telnet-setup.md
+		│   ├── metasploit-tests.md
+		│   └── nsg-configuration.md
+		│
+		├── logs/
+		│   └── flow-log-sample.json
+		│
+		├── screenshots/
+		│   ├── before-firewall/
+		│   ├── after-firewall/
+		│   └── monitoring/
+		│
+		└── notes/
+		    └── project-notes.md
 	
 
 # ETHICAL NOTE
