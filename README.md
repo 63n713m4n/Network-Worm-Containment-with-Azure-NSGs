@@ -78,8 +78,8 @@ Ubuntu Server
 		│   └── nsg-configuration.md
 		│
 		├── logs/
-		│   └── flow-log-sample.json
-		│
+		│   ├── PT1H.json
+		│	└──README.md
 		├── screenshots/
 		│   ├── before-firewall/
 		│   ├── after-firewall/
