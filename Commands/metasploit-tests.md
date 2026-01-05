@@ -1,8 +1,29 @@
-# Metasploit Auxiliary Scans
+# Metasploit Installation and Testing
 
 ## Content
 
-This file documents the Metasploit modules used for safe service visibility testing.
+This document describes how Metasploit Framework was installed on the JumpBox virtual machine and how it was used for safe service visibility testing in the project.
+
+## Metasploit Installation on JumpBox
+
+Metasploit was installed only on the JumpBox, which acted as the attacker simulation machine. The Target virtual machines did not have Metasploit installed.
+
+Operating system: Ubuntu Server
+
+## Steps
+## Update the system:
+    sudo apt update
+    sudo apt upgrade -y
+
+## Install Metasploit Framework:
+    sudo apt install metasploit-framework -y
+
+## Start and enable PostgreSQL:
+    sudo systemctl start postgresql
+    sudo systemctl enable postgresql
+
+## Initialize the Metasploit database:
+    sudo msfdb init
 
 ## Start Metasploit:
     msfconsole
