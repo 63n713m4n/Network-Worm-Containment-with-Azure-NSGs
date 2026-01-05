@@ -62,6 +62,30 @@ Ubuntu Server
 	•	Worm-like behavior can be contained without modifying virtual machines
 	•	Azure Network Watcher flow logs provide verification of blocked traffic
 
+## REPOSITORY STRUCTURE
+network-worm-containment-azure-nsg/
+│
+├── README.md
+│
+├── architecture/
+│   └── architecture-diagram.png
+│
+├── commands/
+│   ├── baseline-tests.md
+│   ├── telnet-setup.md
+│   ├── metasploit-tests.md
+│   └── nsg-configuration.md
+│
+├── logs/
+│   └── flow-log-sample.json
+│
+├── screenshots/
+│   ├── before-firewall/
+│   ├── after-firewall/
+│   └── monitoring/
+│
+└── notes/
+    └── project-notes.md
 
 # ETHICAL NOTE
 
