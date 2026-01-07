@@ -82,8 +82,8 @@ Ubuntu Server
 		│	└──README.md
 		├── screenshots/
 		│   ├── before-firewall/
-		│   ├── after-firewall/
-		│   └── monitoring/
+		│   └── after-firewall/
+		│   
 		│
 		└── notes/
 		    └── project-notes.md
