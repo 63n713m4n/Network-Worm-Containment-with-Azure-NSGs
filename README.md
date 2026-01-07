@@ -71,7 +71,7 @@ Ubuntu Server
 		├── architecture/
 		│   └── architecture-diagram.png
 		│
-		├── commands/
+		├── Commands/
 		│   ├── baseline-tests.md
 		│   ├── telnet-setup.md
 		│   ├── metasploit-tests.md
