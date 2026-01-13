@@ -1,6 +1,6 @@
 # FLOW LOG EVIDENCE
 
-![Azure Flow Log Evidence](flow-log.png)
+![Azure Flow Log Evidence](PT1H.png)
 
 This directory contains Azure Virtual Network flow log data generated during the experiment.
 
