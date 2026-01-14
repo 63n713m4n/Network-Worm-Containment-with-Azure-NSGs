@@ -79,6 +79,7 @@ Ubuntu Server
 		│
 		├── logs/
 		│   ├── PT1H.json
+			├── PT1H.png
 		│	└──README.md
 		├── screenshots/
 		│   ├── before-firewall/
