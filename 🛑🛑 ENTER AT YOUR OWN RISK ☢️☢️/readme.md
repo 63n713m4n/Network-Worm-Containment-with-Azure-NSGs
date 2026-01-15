@@ -21,9 +21,9 @@
 
 ## 🚀 Quickstart
 
-# 1. Deploy C2 (30 seconds)
+# 1. Deploy C2 
     ```bash
-    git clone https://github.com/YOURUSERNAME/azure-worm-poc
+    git clone 
     cd azure-worm-poc
     # Add your ngrok token to docker-compose.yml
     docker-compose up -d
