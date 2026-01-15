@@ -8,10 +8,10 @@
 set -euo pipefail  # Exit on error, undefined vars
 
 # Config (match your thesis environment)
-VNET="10.0.1.0/24"      # Your flat subnet
+VNET="10.0.1.0/24"      
 LOG="/var/log/thesis-worm.log"
 WORM_CRON="/etc/cron.d/thesis-worm"
-TELNET_PORT=23           # Your weak service
+TELNET_PORT=23           
 
 #===[ PHASE 0: LOGGING ]================================================
 log() {
