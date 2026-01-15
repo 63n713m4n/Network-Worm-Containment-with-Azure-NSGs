@@ -47,7 +47,24 @@ Ubuntu Server
 	6.	A subnet-level Network Security Group rule was applied to deny all internal traffic.
 	7.	Connectivity tests and scans were repeated to confirm containment.
 	8.	Virtual network flow logs were used to verify that denied traffic was recorded.
+#  sim-worm.sh
+		
+	This script simulates worm-style lateral movement inside a flat Azure subnet to validate Network Security Group containment. It performs host discovery, weak service enumeration, controlled propagation attempts, and persistence simulation. All activity is logged for correlation with Azure NSG flow logs. The script is designed for academic lab environments and supports experimental validation in a master’s thesis context.
 
+	Key behaviors
+	Ping sweep for baseline host discovery
+	Telnet, SMB, and SSH probing as common worm vectors
+	Propagation attempts blocked by NSG rules
+	Cron-based persistence simulation
+	Detailed logging for forensic and flow log analysis
+	Azure IMDS check to confirm cloud execution
+
+	## Intended use
+	Master’s thesis experiments
+	Azure network security labs
+	Controlled malware behavior simulation
+	NSG lateral movement containment validation
+	
 # REPOSITORY CONTENTS
 	•	Command references used during testing
 	•	Network Security Group rule configuration details
