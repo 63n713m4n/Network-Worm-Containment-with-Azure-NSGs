@@ -13,6 +13,8 @@
 - ✅ **TTL Cleanup** - 24h self-destruct
 - ✅ **Dockerized C2** - One-command deployment
 
+  [Worm Details ](worm.png)
+
 ## 🛠️ Attack Flow
     Initial Foothold VM → docker-compose up (C2)
     curl propagate.py | python3 → Infects ALL subscription VMs
