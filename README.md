@@ -77,6 +77,8 @@ Ubuntu Server
 		│   ├── metasploit-tests.md
 		│   └── nsg-configuration.md
 		│
+		├── sim-worm.sh
+		│		
 		├── logs/
 		│   ├── PT1H.json
 			├── PT1H.png
