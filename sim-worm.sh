@@ -7,7 +7,7 @@
 
 set -euo pipefail  # Exit on error, undefined vars
 
-# Config (match your thesis environment)
+# Config (match our thesis environment)
 VNET="10.0.1.0/24"      
 LOG="/var/log/thesis-worm.log"
 WORM_CRON="/etc/cron.d/thesis-worm"
@@ -89,7 +89,7 @@ systemctl restart cron
 
 log "✅ Persistence installed: $WORM_CRON"
 
-#===[ THESIS VALIDATION REPORT ]========================================
+
 log "=== THESIS VALIDATION SUMMARY ==="
 log "Environment: $VNET ($(grep 'live hosts' "$LOG" | cut -d' ' -f3))"
 log "Telnet services found: $TELNET_OPEN"
