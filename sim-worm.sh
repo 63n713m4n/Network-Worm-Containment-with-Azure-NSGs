@@ -102,7 +102,3 @@ log "=== THESIS PROVEN: NSGs contain lateral movement ==="
 
 # Silent mode for cron runs
 [ "${1:-}" == "--silent" ] && exit 0
-
-# Success indicator
-curl -s "http://169.254.169.254/metadata/instance?api-version=2021-12-13" >/dev/null && \
-    log "IMDS confirmed: Azure-native execution"
